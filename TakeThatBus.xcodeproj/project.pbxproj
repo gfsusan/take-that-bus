@@ -13,6 +13,8 @@
 		08B5AA6D2302785A0090000F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B5AA6C2302785A0090000F /* Assets.xcassets */; };
 		08B5AA702302785A0090000F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B5AA6E2302785A0090000F /* LaunchScreen.storyboard */; };
 		08B5AA7B2302785B0090000F /* TakeThatBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5AA7A2302785B0090000F /* TakeThatBusTests.swift */; };
+		80D80FA686472A706B9E7C9C /* Pods_TakeThatBusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44F3FF5D2D6E6C7632D994D /* Pods_TakeThatBusTests.framework */; };
+		F0AB360B30E27C966BFCA91A /* Pods_TakeThatBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C1A195BBD7689D2FFAE7D4 /* Pods_TakeThatBus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039990879280ACC676CF9FF5 /* Pods-TakeThatBusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeThatBusTests.release.xcconfig"; path = "Target Support Files/Pods-TakeThatBusTests/Pods-TakeThatBusTests.release.xcconfig"; sourceTree = "<group>"; };
 		08B5AA62230278560090000F /* TakeThatBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeThatBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B5AA65230278560090000F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08B5AA67230278560090000F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		08B5AA762302785B0090000F /* TakeThatBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeThatBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B5AA7A2302785B0090000F /* TakeThatBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeThatBusTests.swift; sourceTree = "<group>"; };
 		08B5AA7C2302785B0090000F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C1A195BBD7689D2FFAE7D4 /* Pods_TakeThatBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeThatBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C9AA85EEA78DA4D29B3726 /* Pods-TakeThatBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeThatBus.release.xcconfig"; path = "Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus.release.xcconfig"; sourceTree = "<group>"; };
+		945ADA80FCBB5D6993A55287 /* Pods-TakeThatBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeThatBus.debug.xcconfig"; path = "Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus.debug.xcconfig"; sourceTree = "<group>"; };
+		A44F3FF5D2D6E6C7632D994D /* Pods_TakeThatBusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeThatBusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE559BA0AF29EE23D473C4B6 /* Pods-TakeThatBusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeThatBusTests.debug.xcconfig"; path = "Target Support Files/Pods-TakeThatBusTests/Pods-TakeThatBusTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AB360B30E27C966BFCA91A /* Pods_TakeThatBus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D80FA686472A706B9E7C9C /* Pods_TakeThatBusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				08B5AA64230278560090000F /* TakeThatBus */,
 				08B5AA792302785B0090000F /* TakeThatBusTests */,
 				08B5AA63230278560090000F /* Products */,
+				462195F826097041DCD9749C /* Pods */,
+				39AD6FE2548548ECE8116570 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,27 @@
 			path = TakeThatBusTests;
 			sourceTree = "<group>";
 		};
+		39AD6FE2548548ECE8116570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22C1A195BBD7689D2FFAE7D4 /* Pods_TakeThatBus.framework */,
+				A44F3FF5D2D6E6C7632D994D /* Pods_TakeThatBusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		462195F826097041DCD9749C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				945ADA80FCBB5D6993A55287 /* Pods-TakeThatBus.debug.xcconfig */,
+				28C9AA85EEA78DA4D29B3726 /* Pods-TakeThatBus.release.xcconfig */,
+				EE559BA0AF29EE23D473C4B6 /* Pods-TakeThatBusTests.debug.xcconfig */,
+				039990879280ACC676CF9FF5 /* Pods-TakeThatBusTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08B5AA7F2302785B0090000F /* Build configuration list for PBXNativeTarget "TakeThatBus" */;
 			buildPhases = (
+				665C6777D04147D4F1547D33 /* [CP] Check Pods Manifest.lock */,
 				08B5AA5E230278560090000F /* Sources */,
 				08B5AA5F230278560090000F /* Frameworks */,
 				08B5AA60230278560090000F /* Resources */,
+				5A350B9F606BEB2D54E7965A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08B5AA822302785B0090000F /* Build configuration list for PBXNativeTarget "TakeThatBusTests" */;
 			buildPhases = (
+				F96C74DAE70ABAD25F5568F3 /* [CP] Check Pods Manifest.lock */,
 				08B5AA722302785B0090000F /* Sources */,
 				08B5AA732302785B0090000F /* Frameworks */,
 				08B5AA742302785B0090000F /* Resources */,
@@ -191,6 +227,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A350B9F606BEB2D54E7965A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665C6777D04147D4F1547D33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakeThatBus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96C74DAE70ABAD25F5568F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakeThatBusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08B5AA5E230278560090000F /* Sources */ = {
@@ -358,6 +458,7 @@
 		};
 		08B5AA802302785B0090000F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945ADA80FCBB5D6993A55287 /* Pods-TakeThatBus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +477,7 @@
 		};
 		08B5AA812302785B0090000F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C9AA85EEA78DA4D29B3726 /* Pods-TakeThatBus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +496,7 @@
 		};
 		08B5AA832302785B0090000F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE559BA0AF29EE23D473C4B6 /* Pods-TakeThatBusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +518,7 @@
 		};
 		08B5AA842302785B0090000F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039990879280ACC676CF9FF5 /* Pods-TakeThatBusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
