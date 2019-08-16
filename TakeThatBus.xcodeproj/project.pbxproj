@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		08B5AA6D2302785A0090000F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B5AA6C2302785A0090000F /* Assets.xcassets */; };
 		08B5AA702302785A0090000F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B5AA6E2302785A0090000F /* LaunchScreen.storyboard */; };
 		08B5AA7B2302785B0090000F /* TakeThatBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5AA7A2302785B0090000F /* TakeThatBusTests.swift */; };
+		08B5AA882306ADC30090000F /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5AA872306ADC30090000F /* ResultController.swift */; };
 		80D80FA686472A706B9E7C9C /* Pods_TakeThatBusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44F3FF5D2D6E6C7632D994D /* Pods_TakeThatBusTests.framework */; };
 		F0AB360B30E27C966BFCA91A /* Pods_TakeThatBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C1A195BBD7689D2FFAE7D4 /* Pods_TakeThatBus.framework */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		08B5AA762302785B0090000F /* TakeThatBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeThatBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B5AA7A2302785B0090000F /* TakeThatBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeThatBusTests.swift; sourceTree = "<group>"; };
 		08B5AA7C2302785B0090000F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B5AA872306ADC30090000F /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 		22C1A195BBD7689D2FFAE7D4 /* Pods_TakeThatBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeThatBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C9AA85EEA78DA4D29B3726 /* Pods-TakeThatBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeThatBus.release.xcconfig"; path = "Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus.release.xcconfig"; sourceTree = "<group>"; };
 		945ADA80FCBB5D6993A55287 /* Pods-TakeThatBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeThatBus.debug.xcconfig"; path = "Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				08B5AA65230278560090000F /* AppDelegate.swift */,
 				08B5AA67230278560090000F /* ViewController.swift */,
+				08B5AA872306ADC30090000F /* ResultController.swift */,
 				08B5AA69230278560090000F /* Main.storyboard */,
 				08B5AA6C2302785A0090000F /* Assets.xcassets */,
 				08B5AA6E2302785A0090000F /* LaunchScreen.storyboard */,
@@ -125,7 +128,6 @@
 				EE559BA0AF29EE23D473C4B6 /* Pods-TakeThatBusTests.debug.xcconfig */,
 				039990879280ACC676CF9FF5 /* Pods-TakeThatBusTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -299,6 +301,7 @@
 			files = (
 				08B5AA68230278560090000F /* ViewController.swift in Sources */,
 				08B5AA66230278560090000F /* AppDelegate.swift in Sources */,
+				08B5AA882306ADC30090000F /* ResultController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
