@@ -19,8 +19,19 @@ class ViewController: UIViewController {
         return sc
     }()
     
+    lazy var menuButton: UIBarButtonItem = {
+        let button = UIBarButtonItem(image: #imageLiteral(resourceName: "hamburger-icon"), style: .plain, target: self, action: #selector(toggleMenu))
+        return button
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.title = "Take That Bus"
+        
+        navigationItem.leftBarButtonItem = menuButton
+        
         
         view.backgroundColor = .white
         
@@ -32,5 +43,8 @@ class ViewController: UIViewController {
         definesPresentationContext = true
     }
     
+    @objc func toggleMenu() {
+        
+    }
 }
 
