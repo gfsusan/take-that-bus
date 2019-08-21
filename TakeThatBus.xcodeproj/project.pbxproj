@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08089757230CE1F000D19801 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08089756230CE1F000D19801 /* Location.swift */; };
+		0808975A230CE2EB00D19801 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08089759230CE2EB00D19801 /* LocationSearchResultCell.swift */; };
 		08B5AA66230278560090000F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5AA65230278560090000F /* AppDelegate.swift */; };
 		08B5AA68230278560090000F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5AA67230278560090000F /* ViewController.swift */; };
 		08B5AA6B230278560090000F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B5AA69230278560090000F /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		039990879280ACC676CF9FF5 /* Pods-TakeThatBusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeThatBusTests.release.xcconfig"; path = "Target Support Files/Pods-TakeThatBusTests/Pods-TakeThatBusTests.release.xcconfig"; sourceTree = "<group>"; };
+		08089756230CE1F000D19801 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		08089759230CE2EB00D19801 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
 		08B5AA62230278560090000F /* TakeThatBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeThatBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B5AA65230278560090000F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08B5AA67230278560090000F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +72,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08089755230CE1E500D19801 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08089756230CE1F000D19801 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		08089758230CE2D000D19801 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				08B5AA872306ADC30090000F /* ResultController.swift */,
+				08089759230CE2EB00D19801 /* LocationSearchResultCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		08B5AA59230278560090000F = {
 			isa = PBXGroup;
 			children = (
@@ -91,9 +112,10 @@
 		08B5AA64230278560090000F /* TakeThatBus */ = {
 			isa = PBXGroup;
 			children = (
+				08089758230CE2D000D19801 /* Search */,
+				08089755230CE1E500D19801 /* Models */,
 				08B5AA65230278560090000F /* AppDelegate.swift */,
 				08B5AA67230278560090000F /* ViewController.swift */,
-				08B5AA872306ADC30090000F /* ResultController.swift */,
 				08B5AA69230278560090000F /* Main.storyboard */,
 				08B5AA6C2302785A0090000F /* Assets.xcassets */,
 				08B5AA6E2302785A0090000F /* LaunchScreen.storyboard */,
@@ -299,8 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0808975A230CE2EB00D19801 /* LocationSearchResultCell.swift in Sources */,
 				08B5AA68230278560090000F /* ViewController.swift in Sources */,
 				08B5AA66230278560090000F /* AppDelegate.swift in Sources */,
+				08089757230CE1F000D19801 /* Location.swift in Sources */,
 				08B5AA882306ADC30090000F /* ResultController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
