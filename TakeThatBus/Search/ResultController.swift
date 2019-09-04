@@ -58,7 +58,34 @@ class ResultController: UITableViewController, UISearchResultsUpdating {
         return 50
     }
     
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        if section == Section.recent.rawValue {
+            let header = UIView(backgroundColor: .white)
+            header.stack(UILabel(text: "최근 검색")).withMargins(.init(top: 16, left: 8, bottom: 16, right: 8))
+            return header
+        } else if section == Section.results.rawValue {
+            return UIView(backgroundColor: .lightGray)
+        } else {
+            return nil
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == Section.recent.rawValue {
+            return 40
+        } else if section == Section.results.rawValue {
+            return CGFloat(section * 10)
+        } else {
+            return 0
+        }
+    }
+    
     func updateSearchResults(for searchController: UISearchController) {
         tableView.reloadData()
     }
+}
+
+private enum Section: Int {
+    case recent
+    case results
 }
