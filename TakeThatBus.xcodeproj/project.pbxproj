@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		08089757230CE1F000D19801 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08089756230CE1F000D19801 /* Location.swift */; };
 		0808975A230CE2EB00D19801 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08089759230CE2EB00D19801 /* LocationSearchResultCell.swift */; };
+		086D1ECB2332529300C95D14 /* ODsaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086D1ECA2332529300C95D14 /* ODsaySDK.framework */; };
 		08B5AA66230278560090000F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5AA65230278560090000F /* AppDelegate.swift */; };
 		08B5AA68230278560090000F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5AA67230278560090000F /* ViewController.swift */; };
 		08B5AA6B230278560090000F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B5AA69230278560090000F /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 		039990879280ACC676CF9FF5 /* Pods-TakeThatBusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeThatBusTests.release.xcconfig"; path = "Target Support Files/Pods-TakeThatBusTests/Pods-TakeThatBusTests.release.xcconfig"; sourceTree = "<group>"; };
 		08089756230CE1F000D19801 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		08089759230CE2EB00D19801 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
+		086D1ECA2332529300C95D14 /* ODsaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ODsaySDK.framework; sourceTree = "<group>"; };
+		086D1ECE233254EF00C95D14 /* TakeThatBus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TakeThatBus-Bridging-Header.h"; sourceTree = "<group>"; };
 		08B5AA62230278560090000F /* TakeThatBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeThatBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B5AA65230278560090000F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08B5AA67230278560090000F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086D1ECB2332529300C95D14 /* ODsaySDK.framework in Frameworks */,
 				F0AB360B30E27C966BFCA91A /* Pods_TakeThatBus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +124,7 @@
 				08B5AA6C2302785A0090000F /* Assets.xcassets */,
 				08B5AA6E2302785A0090000F /* LaunchScreen.storyboard */,
 				08B5AA712302785A0090000F /* Info.plist */,
+				086D1ECE233254EF00C95D14 /* TakeThatBus-Bridging-Header.h */,
 			);
 			path = TakeThatBus;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			children = (
 				22C1A195BBD7689D2FFAE7D4 /* Pods_TakeThatBus.framework */,
 				A44F3FF5D2D6E6C7632D994D /* Pods_TakeThatBusTests.framework */,
+				086D1ECA2332529300C95D14 /* ODsaySDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -508,6 +514,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZLXC439TG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TakeThatBus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -515,6 +525,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.suzenyada.TakeThatBus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TakeThatBus/TakeThatBus-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -527,6 +538,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZLXC439TG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TakeThatBus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -534,6 +549,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.suzenyada.TakeThatBus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TakeThatBus/TakeThatBus-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

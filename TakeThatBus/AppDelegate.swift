@@ -17,6 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Configure ODSay API
+        ODsayService.sharedInst()?.setApiKey("P3Nni0/I1nU09xERQmjSSw")
+        ODsayService.sharedInst()?.setTimeout(5000)
+        
+//        ODsayService.sharedInst()?.requestSearchPubTransPath("126.926493082645", sy: "37.6134436427887", ex: "127.126936754911", ey: "37.5004198786564", opt: 0, searchType: 0, searchPathType: 0, responseBlock: { (response, result) in
+//            if response == 200 {
+//                print("success")
+//                print(result?.description)
+//            } else {
+//                print("failure")
+//            }
+//        })
         
         // Configure Google Maps API
         GMSServices.provideAPIKey("AIzaSyAXKJhRowcERTt1kNqvN8hgy5KVPznC_zQ")
