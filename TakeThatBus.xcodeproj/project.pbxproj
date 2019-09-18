@@ -165,6 +165,7 @@
 				08B5AA5F230278560090000F /* Frameworks */,
 				08B5AA60230278560090000F /* Resources */,
 				5A350B9F606BEB2D54E7965A /* [CP] Embed Pods Frameworks */,
+				5D3AF52DD6B7A330AD6328B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +269,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3AF52DD6B7A330AD6328B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeThatBus/Pods-TakeThatBus-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		665C6777D04147D4F1547D33 /* [CP] Check Pods Manifest.lock */ = {

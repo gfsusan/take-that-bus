@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class ViewController: UIViewController {
 
@@ -36,6 +37,18 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
         
         setupSearchController()
+    }
+    
+    override func loadView() {
+        let camera = GMSCameraPosition(latitude: -33.86, longitude: 151.20, zoom: 6.0)
+        let mapView = GMSMapView(frame: .zero, camera: camera)
+        view = mapView
+        
+        let marker = GMSMarker()
+        marker.position = CLLocationCoordinate2D(latitude: -33.86, longitude: 151.20)
+        marker.title = "Sydney"
+        marker.snippet = "Australia"
+        marker.map = mapView
     }
     
     func setupSearchController() {

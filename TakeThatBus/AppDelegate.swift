@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        // Configure Google Maps API
+        GMSServices.provideAPIKey("AIzaSyAXKJhRowcERTt1kNqvN8hgy5KVPznC_zQ")
+        GMSPlacesClient.provideAPIKey("AIzaSyAXKJhRowcERTt1kNqvN8hgy5KVPznC_zQ")
         
         let viewController = ViewController()
         let navigationController = UINavigationController(rootViewController: viewController)
